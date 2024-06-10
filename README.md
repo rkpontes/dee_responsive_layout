@@ -8,7 +8,7 @@
 
 | Desktop               | Tablet                          | Smartphone                         |
 |----------------|-------------------------------|-----------------------------|
-|![Desktop](screenshots/desktop.png)|![Tablet](screenshots/tablet.png)|![Smartphone](screenshots/smartphone.png)|
+|![Desktop](https://github.com/rkpontes/dee_responsive_layout/blob/main/screenshots/desktop.png?raw=true)|![Tablet](https://github.com/rkpontes/dee_responsive_layout/blob/main/screenshots/tablet.png?raw=true)|![Smartphone](https://github.com/rkpontes/dee_responsive_layout/blob/main/screenshots/smartphone.png?raw=true)|
 
 ## Instalation
 
