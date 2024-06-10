@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'dee_responsive_column.dart';
 
+/// A widget that arranges its children in a responsive column-based layout.
 class DeeResponsiveLayout extends StatelessWidget {
+  /// Creates a DeeResponsiveLayout with the specified children.
+  ///
+  /// [children] is a list of DeeResponsiveColumn to be displayed in the layout.
   const DeeResponsiveLayout({super.key, required this.children});
 
+  /// The list of responsive columns.
   final List<DeeResponsiveColumn> children;
 
   @override
@@ -20,6 +25,9 @@ class DeeResponsiveLayout extends StatelessWidget {
     );
   }
 
+  /// Determines the number of columns based on the screen width.
+  ///
+  /// [width] is the width of the screen.
   int _getColumnCount(double width) {
     if (width >= 1200) {
       return 12; // xl
@@ -34,6 +42,10 @@ class DeeResponsiveLayout extends StatelessWidget {
     }
   }
 
+  /// Builds rows of widgets based on the column count and screen width.
+  ///
+  /// [columns] is the number of columns available.
+  /// [screenWidth] is the width of the screen.
   List<Widget> _buildRows(int columns, double screenWidth) {
     List<Widget> rows = [];
     int currentColCount = 0;
@@ -77,6 +89,7 @@ class DeeResponsiveLayout extends StatelessWidget {
   }
 }
 
+/// Converts Alignment to CrossAxisAlignment.
 CrossAxisAlignment _getRowAlignment(Alignment alignment) {
   if (alignment == Alignment.topLeft) {
     return CrossAxisAlignment.start;
