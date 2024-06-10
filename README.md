@@ -120,7 +120,9 @@ DeeResponsiveLayout({
 This project is licensed under the MIT license - see the LICENSE file for more details.
 
 ## Contribution
-Contributions are welcome! Please open an issue or submit a pull request.
+Contributions are welcome! Please open an [issue](https://github.com/rkpontes/dee_responsive_layout/issues) or submit a [pull request](https://github.com/rkpontes/dee_responsive_layout/pulls).
 
 ## Author
-Developed by [Raphael Pontes]('https://www.linkedin.com/in/raphaelkennedy/')
+Developed by [Raphael Pontes](https://www.linkedin.com/in/raphaelkennedy/).
+
+Did I help you? [Buy me a coffee](https://buymeacoffee.com/raphaelpontes).
