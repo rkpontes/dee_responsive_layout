@@ -1,6 +1,6 @@
 name: dee_responsive_layout
 description: "A Flutter library for creating responsive layouts using a column system, similar to Bootstrap. It helps you create user interfaces that automatically adapt to different screen sizes."
-version: 0.0.1+1
+version: 0.0.1+2
 homepage: "https://github.com/rkpontes/dee_responsive_layout"
 
 environment:
